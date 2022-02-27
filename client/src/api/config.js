@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-    baseURL: process.env.baseURL || "http://localhost:4000/"
+    baseURL: "https://to-do-list-getir.herokuapp.com/"
 });
 
 const { get, post, put, delete: remove } = apiClient;
