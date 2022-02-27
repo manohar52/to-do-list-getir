@@ -4,7 +4,8 @@
   "description": "a web app to manage to do list",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "start": "node app.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Manohar Rajaram",
   "license": "ISC",
