@@ -1,0 +1,19 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "a web app to manage to do list",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Manohar Rajaram",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
