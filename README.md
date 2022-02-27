@@ -2,6 +2,10 @@
 
 ## URL of the app: [To do list](https://to-do-list-getir.herokuapp.com/#/)
 ## git repo: [git hub link](https://github.com/manohar52/to-do-list-getir)
+
+## Backend: Node and Express
+## Database: mongodb atlas
+## Frontend: React
 ## UI library used: Material UI v4
 ## Redux middleware used: Thunk (Seemed like I need more time to understand Saga)
 
