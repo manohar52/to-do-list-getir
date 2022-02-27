@@ -6,11 +6,12 @@ const path = require('path')
 
 var app = express();
 
-const username = "root";
-const password = "root";
-const cluster = "todolist";
-const dbname = "todolistdb";
-const url = `mongodb+srv://${username}:${password}@${cluster}.tsq1t.mongodb.net/${dbname}?retryWrites=true&w=majority`
+// const username = "root";
+// const password = "root";
+// const cluster = "todolist";
+// const dbname = "todolistdb";
+// const url = `mongodb+srv://${username}:${password}@${cluster}.tsq1t.mongodb.net/${dbname}?retryWrites=true&w=majority`
+const url = process.env.MONGODB_URI
 
 const port = process.env.PORT || 4000
 
