@@ -47,7 +47,7 @@ app.get('*', (req, res) => {
 
 app.use(cors(corsOpts))
 app.use(express.json())
-app.use("/tasks", taskRouter)
+app.use("/api/tasks", taskRouter)
 
 app.listen(port, (err) => {
   if (err) return console.log(err);

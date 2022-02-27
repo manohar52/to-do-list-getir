@@ -2,17 +2,17 @@
 import { get, post, put, remove } from './config'
 
 export const getAllTasks = () => {
-    return get('/tasks/');
+    return get('/api/tasks/');
 }
 
 export const createNewTask = (task) => {
-    return post('/tasks', task)
+    return post('/api/tasks', task)
 }
 
 export const updateTask = (task) => {
-    return put(`/tasks/${task._id}`, task)
+    return put(`/api/tasks/${task._id}`, task)
 }
 
 export const deleteTask = (task) => {
-    return remove(`/tasks/${task._id}`)
+    return remove(`/api/tasks/${task._id}`)
 }
